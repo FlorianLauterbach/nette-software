@@ -1,10 +1,9 @@
 <template>
     <div id="app-layout">
 
-        <PageNavBar>
-        </PageNavBar>
+        <PageNavBar></PageNavBar>
 
-        <main class="container my-3">
+        <main>
             <slot />
         </main>
 
@@ -14,3 +13,9 @@
 
 <script setup>
 </script>
+
+<style type="scss">
+main {
+    margin-top: 61px;
+}
+</style>
