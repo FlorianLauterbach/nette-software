@@ -2,6 +2,30 @@
 @import "bootstrap/scss/variables";
 @import "bootstrap/scss/mixins";
 
-$primary: #ff5733;
 
 @import "bootstrap/scss/bootstrap";
+
+$primary-color-middle: #74388E;
+$primary-color-dark: #42206C;
+$primary: #AE51AA;
+$secondary: #AE51AA;
+
+// @import "bootstrap/dist/css/bootstrap";
+@import "_typo";
+@import "_layout";
+@import "_navbar";
+@import "_footerbar";
+
+.btn-primary {
+      background: linear-gradient(272deg, $primary, $primary-color-middle);
+}
+
+.btn-outline-secondary {
+  color: $secondary;              // Textfarbe Rot
+  border-color: $secondary;        // Rahmenfarbe Rot
+
+  &:hover {
+    background-color: $secondary;  // Hintergrundfarbe Rot beim Hover
+    color: #fff;                   // Textfarbe weiß beim Hover
+  }
+}
