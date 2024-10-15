@@ -10,10 +10,15 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxt/fonts": "^0.9.2",
+    "@nuxt/icon": "^1.5.4",
     "bootstrap": "^5.3.3",
     "nuxt": "^3.13.0",
-    "sass": "^1.79.4",
+    "sass": "^1.79.5",
     "vue": "latest",
     "vue-router": "latest"
+  },
+  "devDependencies": {
+    "prettier": "3.3.3"
   }
 }
