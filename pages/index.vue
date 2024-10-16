@@ -1,20 +1,25 @@
 <template>
     <div>
         <NuxtLayout name="default">
-            <h2>Welcome to the Home Page</h2>
-            <!-- Platzhalter-Komponente einbinden -->
-            <Placeholder />
+            <WelcomeHero></WelcomeHero>
+
+            <WelcomePitch class="area"></WelcomePitch>
+
+            <WelcomeServices class="area"></WelcomeServices>
+
+            <WelcomeTechnologies class="area"></WelcomeTechnologies>
+
+            <WelcomeFaq class="area pb-5"></WelcomeFaq>
         </NuxtLayout>
     </div>
 </template>
 
 <script setup>
-import Placeholder from '~/components/Placeholder.vue'
 
 </script>
 
 <style scoped>
-h2 {
-    color: #007bff;
+.area {
+    margin-top: 10vh;
 }
 </style>
