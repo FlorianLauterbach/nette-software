@@ -1,7 +1,11 @@
 <template>
   <div id="technologies" class="container">
     <h3 class="gradient-text">Technologien</h3>
-    <div class="row">
+    <p>
+      Von mir verwendete Techstacks. Ist Ihrer nicht dabei? Kein Problem - lassen Sie es mich wissen und wir finden
+      eine Lösung.
+    </p>
+    <div class="row mt-5">
       <div class="d-flex justify-content-end">
         <div class="btn-group" role="group" aria-label="Basic example">
           <button type="button" class="btn" v-for="type in types" :key="type.name" @click="selectType(type.name)"
