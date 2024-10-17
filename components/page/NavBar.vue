@@ -22,12 +22,15 @@
                         <li class="nav-item">
                             <NuxtLink class="nav-link" aria-current="page"
                                 to="https://www.linkedin.com/in/florian-lauterbach/">
-                                <Icon name="uil:github" class="icon" />
+                                <Icon name="uil:linkedin" class="icon d-none d-md-block" />
+                                <span class="d-md-none">Auf Linkedin folgen</span>
                             </NuxtLink>
                         </li>
                         <li class="nav-item">
-                            <NuxtLink class="nav-link" aria-current="page" to="https://github.com/FlorianLauterbach">
-                                <Icon name="uil:linkedin" class="icon" />
+                            <NuxtLink class="nav-link" aria-current="page" target="blank"
+                                to="https://github.com/FlorianLauterbach">
+                                <Icon name="uil:github" class="icon d-none d-md-block" />
+                                <span class="d-md-none">Auf GitHub folgen</span>
                             </NuxtLink>
                         </li>
                     </ul>
