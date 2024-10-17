@@ -11,7 +11,6 @@
             {{ message }}
           </div>
           <div>
-            <h5>Kontaktieren Sie mich für Ihr nächstes Projekt!</h5>
             <p>
               Ich freue mich darauf, von Ihnen zu hören! Ob Sie Fragen haben, ein individuelles Angebot benötigen oder
               eine Idee besprechen möchten – lassen Sie mich wissen, wie ich Ihnen weiterhelfen kann. Füllen Sie einfach
