@@ -15,17 +15,4 @@ $secondary: #AE51AA;
 @import "_layout";
 @import "_navbar";
 @import "_footerbar";
-
-.btn-primary {
-      background: linear-gradient(272deg, $primary, $primary-color-middle);
-}
-
-.btn-outline-secondary {
-  color: $secondary;              // Textfarbe Rot
-  border-color: $secondary;        // Rahmenfarbe Rot
-
-  &:hover {
-    background-color: $secondary;  // Hintergrundfarbe Rot beim Hover
-    color: #fff;                   // Textfarbe weiß beim Hover
-  }
-}
+@import "_buttons";

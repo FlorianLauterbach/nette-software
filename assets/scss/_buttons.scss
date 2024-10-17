@@ -1,0 +1,14 @@
+.btn-primary {
+    background: linear-gradient(272deg, $primary, $primary-color-middle);
+    border-color: $primary-color-middle;
+}
+
+.btn-outline-secondary {
+  color: $secondary;
+  border-color: $secondary;
+
+  &:hover {
+    background-color: $secondary;
+    color: #fff;
+  }
+}
