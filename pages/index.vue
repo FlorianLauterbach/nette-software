@@ -15,7 +15,14 @@
 </template>
 
 <script setup>
-
+useSeoMeta({
+    title: 'Web- und App-Entwicklung nach Maß - NetteSoftware',
+    ogTitle: 'Web- und App-Entwicklung nach Maß - NetteSoftware',
+    description: 'NetteSoftware bietet professionelle Web- und App-Entwicklung für individuelle Lösungen. Gemeinsam verwirklichen wir Ihre digitale Vision.',
+    ogDescription: 'Maßgeschneiderte Web- und App-Entwicklung für Unternehmen und Privatpersonen. Mit NetteSoftware digitale Projekte erfolgreich umsetzen.',
+    ogImage: 'https://nette-software.de/images/logo.png',
+    twitterCard: 'summary_large_image',
+})
 </script>
 
 <style scoped>
