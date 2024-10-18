@@ -4,7 +4,7 @@
       <h1>Blog</h1>
 
       <div class="pt-5">
-        <NuxtLink :to="`blog/${post.slug}`" class="blog-link row" v-for="post in paginatedPosts" :key="post.slug">
+        <NuxtLink :to="`blog/${post.slug}`" class="blog-link row pb-3" v-for="post in paginatedPosts" :key="post.slug">
           <div class="col-md-4">
             <img :src="post.image ? `/images/blog/${post.slug}/${post.image}` : '/images/logo.png'"
               class="img-fluid rounded" alt="Bild">
