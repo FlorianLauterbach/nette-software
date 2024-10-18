@@ -2,7 +2,7 @@
     <header>
         <nav id="navbar" class="navbar navbar-expand-lg fixed-top">
             <div class="container">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="/">
                     <img src="/images/logo.png" class="logo" alt="Nette Software">
                     NetteSoftware
                 </a>
