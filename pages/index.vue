@@ -10,6 +10,8 @@
             <WelcomeTechnologies class="area"></WelcomeTechnologies>
 
             <WelcomeFaq class="area pb-5"></WelcomeFaq>
+
+            <BlogEntryLatestPosts class="area pb-5 container"></BlogEntryLatestPosts>
         </NuxtLayout>
     </div>
 </template>
