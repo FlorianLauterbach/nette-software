@@ -12,7 +12,7 @@
           Florian Lauterbach<br>
         </p>
         <p><strong>Kontakt:</strong> <br>
-          Telefon: 11111-11111<br>
+          Telefon: <a href="tel:+491748108524">0174 / 810 85 24</a><br>
           E-Mail: <a href='mailto:hallo@nette-software.de'>hallo@nette-software.de</a></br></p>
         <p><strong>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:</strong><br>
           Florian Lauterbach <br>
