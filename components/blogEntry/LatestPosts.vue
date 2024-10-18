@@ -3,7 +3,7 @@
     <h5>Die letzten Blog Einträge</h5>
     <div class="row">
       <div v-for="post in latestPosts" :key="post.title" class="col-12 col-md-6">
-        <NuxtLink :to="`blog/${post.slug}`" class="blog-link row">
+        <NuxtLink :to="`blog/${post.slug}`" class="blog-link row pb-3">
           <div class="col-md-4">
             <img :src="post.image ? `/images/blog/${post.slug}/${post.image}` : '/images/logo.png'"
               class="img-fluid rounded" alt="Bild">
