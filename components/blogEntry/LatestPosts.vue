@@ -6,7 +6,7 @@
         <NuxtLink :to="`blog/${post.slug}`" class="blog-link row pb-3">
           <div class="col-md-4">
             <img :src="post.image ? `/images/blog/${post.slug}/${post.image}` : '/images/logo.png'"
-              class="img-fluid rounded" alt="Bild">
+              class="img-fluid rounded" :alt="post.title">
           </div>
           <div class="col-md-8">
             <div class="card-body pl-2">

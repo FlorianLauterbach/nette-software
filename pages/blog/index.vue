@@ -20,7 +20,7 @@
         <NuxtLink :to="`blog/${post.slug}`" class="blog-link row pb-3" v-for="post in paginatedPosts" :key="post.slug">
           <div class="col-md-4">
             <img :src="post.image ? `/images/blog/${post.slug}/${post.image}` : '/images/logo.png'"
-              class="img-fluid rounded" alt="Bild">
+              class="img-fluid rounded" :alt="post.title">
           </div>
           <div class="col-md-8">
             <div class="card-body pl-2">
