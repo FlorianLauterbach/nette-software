@@ -42,7 +42,7 @@
 import { ref, computed } from 'vue'
 import { blogPosts } from '~/data/blogPosts.js'
 
-const postsPerPage = 1
+const postsPerPage = 10
 const currentPage = ref(1)
 const totalPages = computed(() => Math.ceil(blogPosts.length / postsPerPage))
 
