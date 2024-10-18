@@ -38,10 +38,3 @@ if (currentIndex === 0) {
   latestPosts.push(...blogPosts.slice(0, 4))
 }
 </script>
-
-<style scoped>
-.blog-link {
-  color: inherit;
-  text-decoration: none;
-}
-</style>
