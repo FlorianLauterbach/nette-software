@@ -10,10 +10,13 @@ export default defineNuxtConfig({
   build: {
     transpile: ['bootstrap']
   },
-
-  content: {
-    documentDriven: true,
-  },
+  
+  hooks: {
+    'build:before': () => {
+      const { execSync } = require('child_process');
+      execSync('npm run generate:blogList');
+    }
+  }, 
   
   modules: ['@nuxt/icon', '@nuxt/fonts', '@nuxt/content']
 })
