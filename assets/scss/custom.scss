@@ -10,9 +10,10 @@ $primary-color-dark: #42206C;
 $primary: #AE51AA;
 $secondary: #AE51AA;
 
-// @import "bootstrap/dist/css/bootstrap";
 @import "_typo";
 @import "_layout";
 @import "_navbar";
 @import "_footerbar";
 @import "_buttons";
+@import "_blog";
+@import "_pagination";

@@ -1,0 +1,9 @@
+.pagination {
+    --bs-pagination-color: $primary;
+    --#{$prefix}pagination-active-color: #{$pagination-active-color};
+    --#{$prefix}pagination-active-bg: #{$primary};
+    --#{$prefix}pagination-active-border-color: #{$primary};
+    --#{$prefix}pagination-hover-color: #{$primary};
+    --#{$prefix}pagination-hover-border-color: #{$primary};
+    --#{$prefix}pagination-focus-color:  #{$primary};
+}
