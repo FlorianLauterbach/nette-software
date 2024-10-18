@@ -11,5 +11,9 @@ export default defineNuxtConfig({
     transpile: ['bootstrap']
   },
 
-  modules: ['@nuxt/icon', '@nuxt/fonts']
+  content: {
+    documentDriven: true,
+  },
+  
+  modules: ['@nuxt/icon', '@nuxt/fonts', '@nuxt/content']
 })
