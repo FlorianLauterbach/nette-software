@@ -2,6 +2,19 @@
   <div id="blog-eintraege" class="container py-5">
     <NuxtLayout name="default">
       <h1>Blog</h1>
+      <div class="intro">
+        <p>
+          Hier findest du spannende Artikel, interessante Einblicke und hilfreiche Tipps rund um die Themen
+          Softwareentwicklung, Webdesign und digitale Innovation. Egal, ob du ein angehender Programmierer, ein
+          erfahrener
+          Entwickler oder einfach nur an den neuesten Trends in der Technologie interessiert bist.
+        </p>
+        <p>
+          Stöbere durch meine Beiträge und entdecke wertvolle Informationen, die dir helfen, deine Kenntnisse zu
+          erweitern und die besten Praktiken in der Softwareentwicklung zu erlernen. Lass dich inspirieren und bleib auf
+          dem Laufenden!
+        </p>
+      </div>
 
       <div class="pt-5">
         <NuxtLink :to="`blog/${post.slug}`" class="blog-link row pb-3" v-for="post in paginatedPosts" :key="post.slug">
