@@ -25,7 +25,7 @@
 </template>
 
 <script setup>
-import { ref, computed, defineProps } from 'vue';
+import { ref, computed } from 'vue';
 
 const selection = ref('all')
 
@@ -49,6 +49,10 @@ const types = [
   {
     name: 'cicd',
     title: 'CI/CD'
+  },
+  {
+    name: 'docu',
+    title: 'Dokumentation'
   }
 ]
 
@@ -66,6 +70,11 @@ const entries = [
   {
     title: 'Directus',
     type: 'cms',
+    text: ''
+  },
+  {
+    title: 'Docusaurus',
+    type: 'docu',
     text: ''
   },
   {
@@ -106,6 +115,11 @@ const entries = [
   {
     title: 'ReactJS',
     type: 'frontend',
+    text: ''
+  },
+  {
+    title: 'Storybook',
+    type: 'docu',
     text: ''
   },
   {
