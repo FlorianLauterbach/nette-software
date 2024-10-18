@@ -2,7 +2,7 @@
   <div id="technologies" class="container">
     <h3 class="gradient-text">Technologien</h3>
     <p>
-      Von mir verwendete Techstacks. Ist Ihrer nicht dabei? Kein Problem - lassen Sie es mich wissen und wir finden
+      Von mir verwendete Techstacks. Ist deiner nicht dabei? Kein Problem - lass es mich wissen und wir finden
       eine Lösung.
     </p>
     <div class="row mt-5">

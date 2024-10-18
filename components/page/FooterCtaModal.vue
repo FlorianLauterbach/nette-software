@@ -12,9 +12,9 @@
           </div>
           <div>
             <p>
-              Ich freue mich darauf, von Ihnen zu hören! Ob Sie Fragen haben, ein individuelles Angebot benötigen oder
-              eine Idee besprechen möchten – lassen Sie mich wissen, wie ich Ihnen weiterhelfen kann. Füllen Sie einfach
-              das untenstehende Formular aus, und ich melde mich schnellstmöglich bei Ihnen.
+              Ich freue mich darauf, von dir zu hören! Ob du Fragen hast, ein individuelles Angebot benötigst oder
+              eine Idee besprechen möchtest – lasse es mich wissen, wie ich dir weiterhelfen kann. Fülle einfach
+              das untenstehende Formular aus, und ich melde mich schnellstmöglich bei dir.
             </p>
           </div>
           <form @submit.prevent="submitForm">

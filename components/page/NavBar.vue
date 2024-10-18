@@ -2,10 +2,10 @@
     <header>
         <nav id="navbar" class="navbar navbar-expand-lg fixed-top">
             <div class="container">
-                <a class="navbar-brand" href="/">
+                <NuxtLink class="navbar-brand" to="/">
                     <img src="/images/logo.png" class="logo" alt="Nette Software">
                     NetteSoftware
-                </a>
+                </NuxtLink>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">

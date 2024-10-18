@@ -1,15 +1,16 @@
 <template>
   <div id="cta-box" class="d-flex justify-content-center align-items-center">
     <div class="text-overlay container">
-      <h5 class="display-4">Bereit, Ihr Projekt zum <span class="gradient-text">Leben</span> zu erwecken?</h5>
+      <h5 class="display-4">Bereit, dein Projekt zum <span class="gradient-text">Leben</span> zu erwecken?</h5>
       <h2 class="lead">
-        Ob Sie eine beeindruckende Website oder eine innovative App benötigen, ich bin hier, um Ihnen zu helfen! Lassen
-        Sie uns <span class="gradient-text">gemeinsam</span> Ihre Ideen in die Realität umsetzen und die perfekte Lösung
-        für Ihr Unternehmen finden.
+        Ob du eine beeindruckende Website oder eine innovative App benötigst, ich bin hier, um dir zu helfen! Lass
+        uns <span class="gradient-text">gemeinsam</span> deine Ideen in die Realität umsetzen und die <span
+          class="gradient-text">perfekte Lösung</span>
+        finden.
       </h2>
 
       <button class="btn btn-primary mt-5" data-bs-toggle="modal" data-bs-target="#contactModal">
-        Klicken Sie hier, um loszulegen!
+        Klicke hier, um loszulegen!
       </button>
     </div>
 
