@@ -8,7 +8,7 @@ h1, h2, h3, h4, h5, h6 {
       font-family: Poppins, sans-serif;
 }
 
-.gradient-text {
+.gradient-text, #blog-eintrag h1 {
   background: linear-gradient(272deg, $primary, $primary-color-middle);
   -webkit-background-clip: text;
   color: transparent;
@@ -20,4 +20,8 @@ h1, h2, h3, h4, h5, h6 {
   &:focus {
     box-shadow: none;
   }
+}
+
+a {
+  color: $primary;
 }
