@@ -7,6 +7,10 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
 
+  router: {
+    base: '/nette-software/'
+  },
+
   css: [
         '~/assets/scss/custom.scss',
   ],
@@ -23,7 +27,7 @@ export default defineNuxtConfig({
   }, 
 
   sitemap: {
-    hostname: 'https://nette-software.de',
+    siteName: 'https://nette-software.de',
     gzip: true,
     routes: async () => {
       const files = await fs.readdir(join(__dirname, 'content/blog'))
