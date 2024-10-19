@@ -3,6 +3,7 @@ import { promises as fs } from 'fs'
 import { join } from 'path'
 
 export default defineNuxtConfig({
+  target: 'static',
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
 
