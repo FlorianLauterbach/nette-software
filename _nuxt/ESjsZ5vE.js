@@ -1,0 +1,1 @@
+const e=[{title:"Hello World",date:"18.10.2024",slug:"hello-world",image:"hero.webp",description:"Mein erster Blogeintrag zum Relaunch! Hier erfahrt ihr, welche Themen euch künftig erwarten: Von persönlichen Interessen bis zu spannenden Projekten, die ich als Freelancer umsetze"}];export{e as b};
