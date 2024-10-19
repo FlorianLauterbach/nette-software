@@ -1,6 +1,6 @@
 <template>
   <div id="latest-posts" v-if="latestPosts.length">
-    <h3>Die letzten Blog Einträge</h3>
+    <h3 class="gradient-text">Die letzten Blog Einträge</h3>
     <div class="row">
       <div v-for="post in latestPosts" :key="post.title" class="col-12 col-md-6">
         <NuxtLink :to="`blog/${post.slug}`" class="card blog-link row m-3">
@@ -10,7 +10,7 @@
           </div>
           <div class="col-12 col-md-8 p-0 h-100">
             <div class="card-body py-0 h-100">
-              <h5 class="card-title gradient-text mb-0">{{ post.title }}</h5>
+              <h4 class="card-title gradient-text mb-0">{{ post.title }}</h4>
               <p class="card-text text-truncate-ellipsis mb-0">{{ post.description }}</p>
               <p class="card-text"><small class="text-muted">{{ post.date }}</small></p>
             </div>
