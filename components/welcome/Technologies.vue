@@ -88,7 +88,7 @@ const entries = [
     text: ''
   },
   {
-    title: 'Github Actions',
+    title: 'Github Workflows',
     type: 'cicd',
     text: ''
   },
