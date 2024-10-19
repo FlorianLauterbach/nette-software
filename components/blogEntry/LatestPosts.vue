@@ -4,11 +4,11 @@
     <div class="row">
       <div v-for="post in latestPosts" :key="post.title" class="col-12 col-md-6">
         <NuxtLink :to="`blog/${post.slug}`" class="card blog-link row m-3">
-          <div class="col-md-4 p-0">
+          <div class="col-12 col-md-4 p-0">
             <img :src="post.image ? `/images/blog/${post.slug}/${post.image}` : '/images/logo.png'"
               class="img-fluid rounded" :alt="post.title">
           </div>
-          <div class="col-md-8 p-0 h-100">
+          <div class="col-12 col-md-8 p-0 h-100">
             <div class="card-body py-0 h-100">
               <h5 class="card-title gradient-text mb-0">{{ post.title }}</h5>
               <p class="card-text text-truncate-ellipsis mb-0">{{ post.description }}</p>
@@ -52,11 +52,13 @@ if (currentIndex === 0) {
   text-overflow: ellipsis;
 }
 
-.card {
-  height: 135px;
-}
+@media (min-width: 768px) {
+  .card {
+    height: 135px;
+  }
 
-.card-body {
-  max-height: 100%;
+  .card-body {
+    max-height: 100%;
+  }
 }
 </style>
