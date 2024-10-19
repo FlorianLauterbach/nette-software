@@ -1,0 +1,1 @@
+.card-body{display:flex;flex-direction:column;justify-content:space-between}.text-truncate-ellipsis{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}@media (min-width:768px){.card{height:135px}.card-body{max-height:100%}}
