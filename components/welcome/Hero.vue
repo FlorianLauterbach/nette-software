@@ -15,9 +15,15 @@
   background-image: url("/images/hexagon.png");
   background-size: cover;
   background-position: center;
-  height: 50vh;
+  height: 25vh;
   position: relative;
   background-attachment: fixed;
+}
+
+@media (min-width: 768px) {
+  .hero-box {
+    height: 50vh;
+  }
 }
 
 .text-overlay {
