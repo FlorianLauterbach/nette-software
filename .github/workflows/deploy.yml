@@ -28,6 +28,7 @@ jobs:
         echo "SMTP_USER=${{ secrets.SMTP_USER }}" >> .env
         echo "SMTP_PASS=${{ secrets.SMTP_PASS }}" >> .env
         echo "EMAIL_RECIPIENT=${{ secrets.EMAIL_RECIPIENT }}" >> .env
+        echo "NUXT_PUBLIC_SITE_URL=${{ secrets.NUXT_PUBLIC_SITE_URL }}" >> .env
 
     - name: Generate blog list
       run: npm run generate:blogList
