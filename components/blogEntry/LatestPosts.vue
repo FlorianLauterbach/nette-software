@@ -1,6 +1,6 @@
 <template>
   <div id="latest-posts" v-if="latestPosts.length">
-    <h5>Die letzten Blog Einträge</h5>
+    <h3>Die letzten Blog Einträge</h3>
     <div class="row">
       <div v-for="post in latestPosts" :key="post.title" class="col-12 col-md-6">
         <NuxtLink :to="`blog/${post.slug}`" class="card blog-link row m-3">

@@ -21,7 +21,7 @@
       </div>
       <transition-group name="slide" tag="div" class="row">
         <div class="col-6 col-md-3 text-center my-5" v-for="technology in technologies" :key="technology.title">
-          <h5 class="gradient-text">{{ technology.title }}</h5>
+          <p class="h5 gradient-text">{{ technology.title }}</p>
           <WelcomeTechnologyImage :technology="technology"></WelcomeTechnologyImage>
         </div>
       </transition-group>
