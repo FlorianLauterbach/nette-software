@@ -1,94 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/__sitemap__/style.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://florianlauterbach.github.io/nette-software</loc>
+        <loc>https://nette-software.de/</loc>
         <image:image>
-            <image:loc>https://florianlauterbach.github.io/nette-software/images/technologies/angularjs-logo.png</image:loc>
+            <image:loc>https://nette-software.de/_ipx/q_80/images/technologies/angularjs-logo.png</image:loc>
         </image:image>
         <image:image>
-            <image:loc>https://florianlauterbach.github.io/nette-software/images/technologies/bootstrap-logo.png</image:loc>
+            <image:loc>https://nette-software.de/_ipx/q_80/images/technologies/bootstrap-logo.png</image:loc>
         </image:image>
         <image:image>
-            <image:loc>https://florianlauterbach.github.io/nette-software/images/technologies/directus-logo.png</image:loc>
+            <image:loc>https://nette-software.de/_ipx/q_80/images/technologies/directus-logo.png</image:loc>
         </image:image>
         <image:image>
-            <image:loc>https://florianlauterbach.github.io/nette-software/images/technologies/docusaurus-logo.png</image:loc>
+            <image:loc>https://nette-software.de/_ipx/q_80/images/technologies/docusaurus-logo.png</image:loc>
         </image:image>
         <image:image>
-            <image:loc>https://florianlauterbach.github.io/nette-software/images/technologies/extjs-logo.png</image:loc>
+            <image:loc>https://nette-software.de/_ipx/q_80/images/technologies/extjs-logo.png</image:loc>
         </image:image>
         <image:image>
-            <image:loc>https://florianlauterbach.github.io/nette-software/images/technologies/githubactions-logo.png</image:loc>
+            <image:loc>https://nette-software.de/_ipx/q_80/images/technologies/githubactions-logo.png</image:loc>
         </image:image>
         <image:image>
-            <image:loc>https://florianlauterbach.github.io/nette-software/images/technologies/gitlabactions-logo.png</image:loc>
+            <image:loc>https://nette-software.de/_ipx/q_80/images/technologies/gitlabactions-logo.png</image:loc>
         </image:image>
         <image:image>
-            <image:loc>https://florianlauterbach.github.io/nette-software/images/technologies/ionic-logo.png</image:loc>
+            <image:loc>https://nette-software.de/_ipx/q_80/images/technologies/ionic-logo.png</image:loc>
         </image:image>
         <image:image>
-            <image:loc>https://florianlauterbach.github.io/nette-software/images/technologies/laravel-logo.png</image:loc>
+            <image:loc>https://nette-software.de/_ipx/q_80/images/technologies/laravel-logo.png</image:loc>
         </image:image>
         <image:image>
-            <image:loc>https://florianlauterbach.github.io/nette-software/images/technologies/nodejs-logo.png</image:loc>
+            <image:loc>https://nette-software.de/_ipx/q_80/images/technologies/nodejs-logo.png</image:loc>
         </image:image>
         <image:image>
-            <image:loc>https://florianlauterbach.github.io/nette-software/images/technologies/nuxtjs-logo.png</image:loc>
+            <image:loc>https://nette-software.de/_ipx/q_80/images/technologies/nuxtjs-logo.png</image:loc>
         </image:image>
         <image:image>
-            <image:loc>https://florianlauterbach.github.io/nette-software/images/technologies/reactjs-logo.png</image:loc>
+            <image:loc>https://nette-software.de/_ipx/q_80/images/technologies/reactjs-logo.png</image:loc>
         </image:image>
         <image:image>
-            <image:loc>https://florianlauterbach.github.io/nette-software/images/technologies/storybook-logo.png</image:loc>
+            <image:loc>https://nette-software.de/_ipx/q_80/images/technologies/storybook-logo.png</image:loc>
         </image:image>
         <image:image>
-            <image:loc>https://florianlauterbach.github.io/nette-software/images/technologies/storyblok-logo.png</image:loc>
+            <image:loc>https://nette-software.de/_ipx/q_80/images/technologies/storyblok-logo.png</image:loc>
         </image:image>
         <image:image>
-            <image:loc>https://florianlauterbach.github.io/nette-software/images/technologies/strapi-logo.png</image:loc>
+            <image:loc>https://nette-software.de/_ipx/q_80/images/technologies/strapi-logo.png</image:loc>
         </image:image>
         <image:image>
-            <image:loc>https://florianlauterbach.github.io/nette-software/images/technologies/tailwind-logo.png</image:loc>
+            <image:loc>https://nette-software.de/_ipx/q_80/images/technologies/tailwind-logo.png</image:loc>
         </image:image>
         <image:image>
-            <image:loc>https://florianlauterbach.github.io/nette-software/images/technologies/vitejs-logo.png</image:loc>
+            <image:loc>https://nette-software.de/_ipx/q_80/images/technologies/vitejs-logo.png</image:loc>
         </image:image>
         <image:image>
-            <image:loc>https://florianlauterbach.github.io/nette-software/images/technologies/vuejs-logo.png</image:loc>
+            <image:loc>https://nette-software.de/_ipx/q_80/images/technologies/vuejs-logo.png</image:loc>
         </image:image>
         <image:image>
-            <image:loc>https://florianlauterbach.github.io/nette-software/images/technologies/vuetifyjs-logo.png</image:loc>
+            <image:loc>https://nette-software.de/_ipx/q_80/images/technologies/vuetifyjs-logo.png</image:loc>
         </image:image>
         <image:image>
-            <image:loc>https://florianlauterbach.github.io/nette-software/images/technologies/wordpress-logo.png</image:loc>
+            <image:loc>https://nette-software.de/_ipx/q_80/images/technologies/wordpress-logo.png</image:loc>
         </image:image>
         <image:image>
-            <image:loc>https://florianlauterbach.github.io/nette-software/images/blog/hello-world/hero.jpg</image:loc>
-        </image:image>
-    </url>
-    <url>
-        <loc>https://florianlauterbach.github.io/nette-software/blog</loc>
-        <image:image>
-            <image:loc>https://florianlauterbach.github.io/nette-software/images/blog/hello-world/hero.jpg</image:loc>
+            <image:loc>https://nette-software.de/_ipx/q_80/images/blog/hello-world/hero.jpg</image:loc>
         </image:image>
     </url>
     <url>
-        <loc>https://florianlauterbach.github.io/nette-software/datenschutz</loc>
-    </url>
-    <url>
-        <loc>https://florianlauterbach.github.io/nette-software/Datenschutz</loc>
-    </url>
-    <url>
-        <loc>https://florianlauterbach.github.io/nette-software/impressum</loc>
-    </url>
-    <url>
-        <loc>https://florianlauterbach.github.io/nette-software/Impressum</loc>
-    </url>
-    <url>
-        <loc>https://florianlauterbach.github.io/nette-software/blog/hello-world</loc>
+        <loc>https://nette-software.de/blog</loc>
         <image:image>
-            <image:loc>https://florianlauterbach.github.io/nette-software/images/blog/hello-world/hero.jpg</image:loc>
+            <image:loc>https://nette-software.de/_ipx/q_80/images/blog/hello-world/hero.jpg</image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://nette-software.de/datenschutz</loc>
+    </url>
+    <url>
+        <loc>https://nette-software.de/Datenschutz</loc>
+    </url>
+    <url>
+        <loc>https://nette-software.de/impressum</loc>
+    </url>
+    <url>
+        <loc>https://nette-software.de/Impressum</loc>
+    </url>
+    <url>
+        <loc>https://nette-software.de/blog/hello-world</loc>
+        <image:image>
+            <image:loc>https://nette-software.de/_ipx/q_80/images/blog/hello-world/hero.jpg</image:loc>
         </image:image>
     </url>
 </urlset>
-<!-- XML Sitemap generated by @nuxtjs/sitemap v6.1.2 at 2024-10-19T12:50:16.204Z -->
+<!-- XML Sitemap generated by @nuxtjs/sitemap v6.1.2 at 2024-10-19T18:45:56.324Z -->
