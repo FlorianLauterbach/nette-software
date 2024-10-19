@@ -7,9 +7,12 @@
     </p>
     <div class="row mt-5">
       <div class="d-md-none">
-        <select class="form-select" @change="selectType(selection)" v-model="selection">
-          <option v-for="type in types" :key="type.name" :value="type.name">{{ type.title }}</option>
-        </select>
+        <div class="form-floating">
+          <select class="form-select" @change="selectType(selection)" v-model="selection" id="typeSelect">
+            <option v-for="type in types" :key="type.name" :value="type.name">{{ type.title }}</option>
+          </select>
+          <label for="typeSelect">Art auswählen</label>
+        </div>
       </div>
       <div class="d-none d-md-flex justify-content-end">
         <div class="btn-group" role="group">
