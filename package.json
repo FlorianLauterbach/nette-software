@@ -16,6 +16,7 @@
     "@nuxt/icon": "^1.5.4",
     "@nuxt/image": "^1.8.1",
     "@nuxtjs/sitemap": "^6.1.2",
+    "@vueuse/head": "^2.0.0",
     "bootstrap": "^5.3.3",
     "gray-matter": "^4.0.3",
     "nodemailer": "^6.9.15",
