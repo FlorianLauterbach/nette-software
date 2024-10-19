@@ -3,7 +3,7 @@
         <nav id="navbar" class="navbar navbar-expand-lg fixed-top">
             <div class="container">
                 <NuxtLink class="navbar-brand" to="/">
-                    <img src="/images/logo.png" class="logo" alt="Nette Software">
+                    <NuxtImg src="/images/logo.png" class="logo" alt="Nette Software" />
                     NetteSoftware
                 </NuxtLink>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"

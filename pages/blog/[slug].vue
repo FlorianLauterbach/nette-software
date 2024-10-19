@@ -1,7 +1,7 @@
 <template>
   <NuxtLayout name="default">
     <div id="blog-eintrag" class="container">
-      <img class="img-fluid mb-5 rounded-bottom" :src="image" v-if="image">
+      <NuxtImg class="img-fluid mb-5 rounded-bottom" :src="image" v-if="image" />
       <ContentRenderer :value="post" :class="image ? 'pt-3' : 'pt-5'" />
 
       <small v-html="post.imgsource"></small>

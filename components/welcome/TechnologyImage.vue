@@ -1,5 +1,5 @@
 <template>
-  <img :src="image" class="logo" :alt="`${title} Logo`">
+  <NuxtImg :src="image" class="logo" :alt="`${title} Logo`" />
 </template>
 
 <script setup>

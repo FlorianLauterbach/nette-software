@@ -5,8 +5,8 @@
       <div v-for="post in latestPosts" :key="post.title" class="col-12 col-md-6">
         <NuxtLink :to="`blog/${post.slug}`" class="card blog-link row m-3">
           <div class="col-12 col-md-4 p-0">
-            <img :src="post.image ? `/images/blog/${post.slug}/${post.image}` : '/images/logo.png'"
-              class="img-fluid rounded" :alt="post.title">
+            <NuxtImg :src="post.image ? `/images/blog/${post.slug}/${post.image}` : '/images/logo.png'"
+              class="img-fluid rounded" :alt="post.title" />
           </div>
           <div class="col-12 col-md-8 p-0 h-100">
             <div class="card-body py-0 h-100">
