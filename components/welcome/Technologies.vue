@@ -6,8 +6,13 @@
       eine Lösung.
     </p>
     <div class="row mt-5">
-      <div class="d-flex justify-content-end">
-        <div class="btn-group" role="group" aria-label="Basic example">
+      <div class="d-md-none">
+        <select class="form-select" @change="selectType(selection)" v-model="selection">
+          <option v-for="type in types" :key="type.name" :value="type.name">{{ type.title }}</option>
+        </select>
+      </div>
+      <div class="d-none d-md-flex justify-content-end">
+        <div class="btn-group" role="group">
           <button type="button" class="btn" v-for="type in types" :key="type.name" @click="selectType(type.name)"
             :class="type.name === selection ? 'btn-primary' : 'btn-outline-secondary'">
             {{ type.title }}
@@ -160,6 +165,7 @@ const entries = [
 ]
 
 const selectType = function (type) {
+  console.log(type)
   selection.value = type
 }
 
