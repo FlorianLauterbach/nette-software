@@ -586,7 +586,7 @@ useSeoMeta({
   ogTitle: 'Datenschutzerklärung – NetteSoftware',
   description: 'Erfahren Sie, wie NetteSoftware Ihre Daten schützt und welche Informationen bei der Nutzung der Webseite erhoben werden.',
   ogDescription: 'Die Datenschutzerklärung von NetteSoftware erklärt, wie Ihre persönlichen Daten gesammelt, genutzt und geschützt werden.',
-  ogImage: 'https://nette-software.de/images/logo.png',
+  ogImage: 'https://nette-software.de/images/logo.webp',
   twitterCard: 'summary_large_image',
 })
 </script>

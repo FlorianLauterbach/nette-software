@@ -19,7 +19,7 @@
       <div class="pt-5">
         <NuxtLink :to="`blog/${post.slug}`" class="blog-link row pb-3" v-for="post in paginatedPosts" :key="post.slug">
           <div class="col-md-4">
-            <NuxtImg :src="post.image ? `/images/blog/${post.slug}/${post.image}` : '/images/logo.png'"
+            <NuxtImg :src="post.image ? `/images/blog/${post.slug}/${post.image}` : '/images/logo.webp'"
               class="img-fluid rounded" :alt="post.title" />
           </div>
           <div class="col-md-8">
@@ -81,7 +81,7 @@ useSeoMeta({
   ogTitle: 'NetteSoftware Blog – Web- und App-Entwicklung Insights',
   description: 'Entdecken Sie wertvolle Tipps und Neuigkeiten rund um Web- und App-Entwicklung im NetteSoftware Blog. Erhalten Sie Experteneinblicke und Best Practices.',
   ogDescription: 'Im NetteSoftware Blog teilen wir wertvolles Wissen und Neuigkeiten zur Web- und App-Entwicklung. Entdecken Sie unsere Expertentipps.',
-  ogImage: 'https://nette-software.de/images/logo.png',
+  ogImage: 'https://nette-software.de/images/logo.webp',
   twitterCard: 'summary_large_image',
 })
 </script>

@@ -2,7 +2,7 @@
 title: "Hello World"
 slug: "hello-world"
 description: "Mein erster Blogeintrag zum Relaunch! Hier erfahrt ihr, welche Themen euch künftig erwarten: Von persönlichen Interessen bis zu spannenden Projekten, die ich als Freelancer umsetze"
-image: "hero.jpg"
+image: "hero.webp"
 date: "18.10.2024"
 imgsource: 'Foto von <a href="https://unsplash.com/de/@claybanks?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Clay Banks</a> auf <a href="https://unsplash.com/de/fotos/ein-laptop-sitzt-auf-einem-holzschreibtisch-8q6e5hu3Ilc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>'
 ---

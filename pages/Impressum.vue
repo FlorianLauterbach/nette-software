@@ -67,7 +67,7 @@ useSeoMeta({
   ogTitle: 'Impressum – NetteSoftware',
   description: 'Hier finden Sie die rechtlichen Informationen zu NetteSoftware, Ihrem Partner für Web- und App-Entwicklung.',
   ogDescription: 'Das Impressum von NetteSoftware – rechtliche Angaben und Kontaktinformationen zum Anbieter der Webseite.',
-  ogImage: 'https://nette-software.de/images/logo.png',
+  ogImage: 'https://nette-software.de/images/logo.webp',
   twitterCard: 'summary_large_image',
 })
 </script>

@@ -23,7 +23,6 @@ export default defineNuxtConfig({
 
   image: {
     quality: 80,
-    format: ['webp', 'jpg'],
     screens: {
       'xs': 320,
       'sm': 640,
@@ -36,7 +35,7 @@ export default defineNuxtConfig({
   },
 
   sitemap: {
-    hostname: 'https://nette-software.de',
+    hostname: 'nette-software.de',
     gzip: true,
     exclude: [
       '/impressum',

@@ -6,7 +6,7 @@
             <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 mt-5">
                 <div class="col mb-3 text-center">
                     <NuxtLink to="/" class="d-flex align-items-center mb-3 text-decoration-none">
-                        <NuxtImg src="/images/logo.png" class="logo" alt="Nette Software" />
+                        <NuxtImg src="/images/logo.webp" class="logo" alt="Nette Software" />
                     </NuxtLink>
                 </div>
 

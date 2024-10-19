@@ -8,7 +8,7 @@ const props = defineProps(['technology'])
 
 const image = computed(() => {
   let img = props.technology.title.replaceAll(/\s/g, '')
-  return `/images/technologies/${img.toLowerCase()}-logo.png`
+  return `/images/technologies/${img.toLowerCase()}-logo.webp`
 })
 
 const title = computed(() => {

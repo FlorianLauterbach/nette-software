@@ -12,7 +12,7 @@
 
 <style scoped>
 .hero-box {
-  background-image: url("/images/hexagon.png");
+  background-image: url("/images/hexagon.webp");
   background-size: cover;
   background-position: center;
   height: 25vh;
