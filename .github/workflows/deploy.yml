@@ -39,10 +39,10 @@ jobs:
     - name: Generate static files
       run: npm run generate
 
-    - name: Create CNAME file
-      run: |
-        mkdir -p ./build
-        echo 'www.nette-software.de' > ./build/CNAME
+    # - name: Create CNAME file
+      # run: |
+      #   mkdir -p ./build
+      #   echo 'www.nette-software.de' > ./build/CNAME
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
