@@ -21,14 +21,14 @@
                         </li>
                         <li class="nav-item">
                             <NuxtLink class="nav-link" aria-current="page"
-                                to="https://www.linkedin.com/in/florian-lauterbach/">
+                                to="https://www.linkedin.com/in/florian-lauterbach/" aria-label="Linkedin Profil">
                                 <Icon name="uil:linkedin" class="icon d-none d-md-block" />
                                 <span class="d-md-none">Auf Linkedin folgen</span>
                             </NuxtLink>
                         </li>
                         <li class="nav-item">
                             <NuxtLink class="nav-link" aria-current="page" target="blank"
-                                to="https://github.com/FlorianLauterbach">
+                                to="https://github.com/FlorianLauterbach" aria-label="Github Profil">
                                 <Icon name="uil:github" class="icon d-none d-md-block" />
                                 <span class="d-md-none">Auf GitHub folgen</span>
                             </NuxtLink>
