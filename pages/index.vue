@@ -12,6 +12,8 @@
             <WelcomeFaq class="area pb-5"></WelcomeFaq>
 
             <BlogEntryLatestPosts class="area pb-5 container"></BlogEntryLatestPosts>
+
+            <WelcomePartner class="area pb-5 container"></WelcomePartner>
         </NuxtLayout>
     </div>
 </template>
